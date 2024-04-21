@@ -1,13 +1,15 @@
-# CSE312GroupProject
-
-# DOMAIN: [vote.dakin.one](http://vote.dakin.one)
-
-## Important Links
-| Label | Link |
+# Votability
+| Type | Link |
 | --- | --- |
-| Trello | https://trello.com/b/O8NGZZCY/cse312-group-project | 
-| Flask Docs | https://flask.palletsprojects.com/en/2.2.x/ |
+| Original Repo | https://github.com/tylerdak/CSE312GroupProject |
 
-## Notes
-### Private.*
-The .gitignore file has an entry for "Private.*". This is designed for any contributors to be able to have files called Private (with any file extension) to keep keys, tokens, etc. without committing them into git. For each contributor to run the project on their own machine, they should create any Private files (e.g. `touch Private.py`<sup>weird_wording</sup>) and put their own (or the shared) keys, tokens, etc. in there.
+## Website Video Tour
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NGGjr7XG-RE/0.jpg)](https://www.youtube.com/watch?v=NGGjr7XG-RE)
+
+# How to run
+
+In main directory terminal:
+### `python server.py`
+
+Or using docker:
+### `docker compose up`
