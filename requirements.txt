@@ -1,0 +1,8 @@
+flask
+pymongo
+bcrypt
+bs4
+# dnspython
+flask-socketio 
+eventlet
+python-dateutil

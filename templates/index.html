@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" />
+
+    <title>Create Account</title>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/registerLoginStyles.css" />
+
+    <!-- <h1>Page View Counter</h1>
+    <p>{{count}}</p>
+    <h2>All users</h2>
+    <p>{{users}}</p> -->
+    <div class="split-screen">
+      <div class="left">
+        <section class="copy">
+          <img class="biglogo" src="/Login/Cover.png" alt="cover" />
+        </section>
+      </div>
+      <div class="right">
+        <form
+          action="/"
+          id="users-form"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <section class="copy">
+            <h2>Create Account</h2>
+            <p class="small">
+              Answer to the following questions to create account.
+            </p>
+          </section>
+          <div class="input-container name">
+            <label for="form-username">Username</label>
+            <input
+              id="form-username"
+              type="text"
+              name="username"
+              placeholder="Enter your username"
+            />
+          </div>
+          <br />
+          <div class="input-container password">
+            <label for="form-password">Password</label>
+            <input
+              class="password"
+              id="form-password"
+              type="password"
+              name="psw"
+              placeholder="Must be at least 8 characters"
+            />
+            <!-- <i class="fa fa-eye-slash"></i> -->
+          </div>
+          <input class="register-btn" type="submit" value="Register" />
+
+          <p>
+            Already have an account? <a href="/login"><b>Login here</b></a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
